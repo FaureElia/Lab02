@@ -52,6 +52,7 @@ public class FXMLController {
 	    	if(parole.length==1) {
 	    		LinkedList<String> parolaTradotta=dizionario.traduciParola(parole[0]);
 	    		this.txtInserimento.clear();
+	    		//prova
 	    		if (parolaTradotta!=null) {
 	    			String testoFinale=("La/e traduzione/i della parola "+parole[0]+" è/sono :\n");
 	    			for (String s: parolaTradotta)
